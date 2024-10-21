@@ -52,7 +52,7 @@
  */
 
 // Пример:
-class Program
+class lesson1
 {
     static void Main()
     {
