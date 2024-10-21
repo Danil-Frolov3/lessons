@@ -52,15 +52,19 @@
  */
 
 // Пример:
-class lesson1
+namespace lesson1
 {
-    static void Main()
+    class lesson1
     {
-        Console.WriteLine("Напишите ваше имя");
-        string name = Console.ReadLine();
-        Console.WriteLine($"Здравствуйте, {name}");
+        static void Main()
+        {
+            Console.WriteLine("Напишите ваше имя");
+            string name = Console.ReadLine();
+            Console.WriteLine($"Здравствуйте, {name}");
+        }
     }
 }
+
 
 
 
